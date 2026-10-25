@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Study Tutor Evaluation</title>
+<style>
+body{font-family:Arial,sans-serif;max-width:1000px;margin:40px auto;padding:0 20px;background:#f5f7fb;color:#172033}
+h1{margin-bottom:8px} .muted{color:#657089;font-size:14px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:14px;margin:22px 0}
+.card{background:white;padding:22px;border-radius:12px;box-shadow:0 2px 10px #1827440c}
+.number{font-size:30px;font-weight:700;margin:10px 0}
+.panel{background:white;padding:22px;border-radius:12px;margin:16px 0;overflow-wrap:anywhere}
+table{width:100%;border-collapse:collapse}th,td{padding:12px;text-align:left;border-bottom:1px solid #e6eaf1}
+.note{background:#fff8e7;padding:14px;border-radius:8px;line-height:1.5}
+</style></head><body>
+<h1>AI Study Tutor</h1>
+<p class="muted">Prompt evaluation dashboard · Gemini 3.5 Flash Lite · 30 test cases</p>
+<div class="grid">
+<div class="card"><div class="muted">Test cases</div><div class="number">30</div></div>
+<div class="card"><div class="muted">V1 keyword passes</div><div class="number">18/30</div><div class="muted">60.0%</div></div>
+<div class="card"><div class="muted">V2 keyword passes</div><div class="number">18/30</div><div class="muted">60.0%</div></div>
+</div>
+<h2>Test-set composition</h2><div class="grid"><div class="card"><div class="muted">Adversarial</div><div class="number">5</div><div class="muted">test cases</div></div><div class="card"><div class="muted">Ambiguous</div><div class="number">5</div><div class="muted">test cases</div></div><div class="card"><div class="muted">Answerable</div><div class="number">12</div><div class="muted">test cases</div></div><div class="card"><div class="muted">Unanswerable</div><div class="number">8</div><div class="muted">test cases</div></div></div>
+<div class="panel"><h2>Prompt comparison</h2>
+<table><tr><th>Metric</th><th>Prompt V1</th><th>Prompt V2</th></tr>
+<tr><td>Cases evaluated</td><td>30</td><td>30</td></tr>
+<tr><td>Keyword checks passed</td><td>18/30</td><td>18/30</td></tr>
+<tr><td>Keyword pass rate</td><td>60.0%</td><td>60.0%</td></tr>
+</table></div>
+<div class="panel"><h2>Interpretation</h2>
+<p class="note">Keyword matching is a preliminary screening signal, not verified factual accuracy. Correct answers can be flagged when they use different wording. The current results do not establish that either prompt is more accurate.</p>
+<h3>Product takeaway</h3>
+<p>Use a fixed evaluation set to compare prompts, then improve the evaluator before making claims about factual accuracy or hallucination reduction.</p></div>
+<div class="panel"><h2>Experiment notes</h2><pre>PROMPT V1 vs V2 — AUTOMATED COMPARISON
+Cases compared: 30
+V1 keyword checks passed: 18/30 (60.0%)
+V2 keyword checks passed: 18/30 (60.0%)
+Change: +0 cases
+Review → PASS: 1 — TC-25
+PASS → Review: 1 — TC-21
+
+Important: keyword checks are a rough screening metric, not true factual accuracy.
+</pre></div>
+<p class="muted">Generated locally from existing JSON results. No additional model calls were made.</p>
+</body></html>

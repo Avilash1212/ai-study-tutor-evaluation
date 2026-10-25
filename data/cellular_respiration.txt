@@ -1,0 +1,36 @@
+Cellular Respiration Study Guide
+
+1. Introduction to Cellular Respiration
+Cellular respiration is the process by which living cells break down glucose molecules to release energy in the form of ATP (adenosine triphosphate). ATP is the primary energy currency used by cells to carry out essential activities. Cellular respiration can happen in two main ways: aerobic respiration, which requires oxygen, and anaerobic respiration, which occurs when oxygen is not present. The overall chemical equation for aerobic cellular respiration is: 
+Glucose + Oxygen -> Carbon Dioxide + Water + ATP energy.
+
+2. Stage 1: Glycolysis
+Glycolysis is the very first step of cellular respiration. 
+- Location: Glycolysis takes place in the cytoplasm of the cell, outside the mitochondria.
+- Oxygen Requirement: Glycolysis is an anaerobic process, meaning it does not require oxygen to occur.
+- Starting Reactant: One molecule of glucose (a 6-carbon sugar).
+- What Happens: The 6-carbon glucose molecule is broken down into two 3-carbon molecules called pyruvate (also known as pyruvic acid).
+- Energy Yield: Glycolysis produces a net gain of 2 ATP molecules and 2 molecules of NADH (an electron-carrier molecule). Although 4 total ATP molecules are formed, 2 ATP molecules are used up to initiate the reaction, resulting in a net yield of 2 ATP.
+
+3. Stage 2: The Krebs Cycle (Citric Acid Cycle)
+If oxygen is available, the pyruvate molecules produced in glycolysis enter the mitochondria to continue aerobic respiration.
+- Location: The Krebs cycle takes place in the matrix of the mitochondria (the fluid-filled inner space of the mitochondrion).
+- Starting Reactant: Pyruvate is converted into an intermediate compound called acetyl-CoA before entering the cycle.
+- What Happens: Acetyl-CoA is broken down through a series of enzyme-driven chemical reactions. During these steps, carbon atoms from the original glucose are released as carbon dioxide (CO2) gas, which is exhaled by organisms as a waste product.
+- Energy Yield: For each glucose molecule (which provides two turns of the cycle, one for each pyruvate), the Krebs cycle produces 2 ATP molecules, along with high-energy electron carriers: 6 NADH and 2 FADH2 molecules.
+
+4. Stage 3: The Electron Transport Chain (ETC)
+The electron transport chain is the final and highest ATP-producing stage of aerobic cellular respiration.
+- Location: The electron transport chain is located along the inner membrane (cristae) of the mitochondria.
+- Starting Reactants: The electron carriers NADH and FADH2, produced during glycolysis and the Krebs cycle, deliver high-energy electrons to protein complexes embedded in the inner membrane.
+- The Role of Oxygen: Oxygen is the final electron acceptor at the end of the electron transport chain. When oxygen accepts electrons and combines with hydrogen ions, it forms water (H2O) as a byproduct. Without oxygen, the chain stops moving electrons.
+- Energy Yield: The movement of electrons powers the movement of hydrogen ions, driving an enzyme called ATP synthase. The electron transport chain produces approximately 28 to 32 ATP molecules per glucose molecule. Combined with glycolysis and the Krebs cycle, aerobic cellular respiration produces an estimated total of 32 to 36 ATP molecules per single glucose molecule.
+
+5. Anaerobic Pathways: Fermentation
+When oxygen is scarce or completely absent, cells cannot run the Krebs cycle or the electron transport chain. Instead, cells rely on fermentation to continue generating ATP.
+- Location: Fermentation occurs entirely in the cytoplasm.
+- Purpose: Fermentation does not produce ATP on its own. Its main purpose is to regenerate NAD+ from NADH so that glycolysis can continue producing its small net yield of 2 ATP.
+- Two Main Types of Fermentation:
+  a. Lactic Acid Fermentation: Pyruvate is converted into lactic acid. This process occurs in animal muscle cells during intense exercise when oxygen cannot be delivered quickly enough, causing temporary muscle fatigue. It is also used by certain bacteria to produce yogurt and cheese.
+  b. Alcoholic Fermentation: Pyruvate is converted into ethanol (alcohol) and carbon dioxide gas. This process is carried out by yeast cells and some microorganisms, and it is widely used in baking bread and brewing alcoholic beverages.
+- Net ATP Yield: Because only glycolysis functions during anaerobic conditions, fermentation results in a net yield of only 2 ATP molecules per glucose molecule.

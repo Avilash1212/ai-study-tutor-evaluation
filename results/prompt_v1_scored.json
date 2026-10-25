@@ -1,0 +1,659 @@
+[
+  {
+    "id": "TC-01",
+    "category": "answerable",
+    "question": "Where does glycolysis take place within the cell?",
+    "expected_action": "answer",
+    "reference_fact": "Location: Glycolysis takes place in the cytoplasm of the cell, outside the mitochondria.",
+    "required_keywords": [
+      "cytoplasm"
+    ],
+    "scoring_notes": "PASS if the response specifies cytoplasm as the location. FAIL if incorrect location (e.g. mitochondria) is stated.",
+    "model": "gemini-3.5-flash-lite",
+    "answer": "Hello! According to the study guide, glycolysis takes place in the cytoplasm of the cell, outside the mitochondria.",
+    "status": "success",
+    "error": null,
+    "matched_keywords": [
+      "cytoplasm"
+    ],
+    "missing_keywords": [],
+    "keyword_check": "PASS"
+  },
+  {
+    "id": "TC-02",
+    "category": "answerable",
+    "question": "What is the net gain of ATP molecules produced directly by glycolysis?",
+    "expected_action": "answer",
+    "reference_fact": "Energy Yield: Glycolysis produces a net gain of 2 ATP molecules and 2 molecules of NADH...",
+    "required_keywords": [
+      "2",
+      "ATP"
+    ],
+    "scoring_notes": "PASS if the answer states a net yield of 2 ATP. Mention of 4 total or 2 used is acceptable as long as net is 2.",
+    "model": "gemini-3.5-flash-lite",
+    "answer": "Based on the study guide, glycolysis produces a net gain of 2 ATP molecules.",
+    "status": "success",
+    "error": null,
+    "matched_keywords": [
+      "2",
+      "ATP"
+    ],
+    "missing_keywords": [],
+    "keyword_check": "PASS"
+  },
+  {
+    "id": "TC-03",
+    "category": "answerable",
+    "question": "What starting 6-carbon sugar is broken down during glycolysis?",
+    "expected_action": "answer",
+    "reference_fact": "Starting Reactant: One molecule of glucose (a 6-carbon sugar).",
+    "required_keywords": [
+      "glucose"
+    ],
+    "scoring_notes": "PASS if glucose is identified. FAIL if any other sugar is named.",
+    "model": "gemini-3.5-flash-lite",
+    "answer": "Based on the study guide, the 6-carbon sugar broken down during glycolysis is **glucose**.",
+    "status": "success",
+    "error": null,
+    "matched_keywords": [
+      "glucose"
+    ],
+    "missing_keywords": [],
+    "keyword_check": "PASS"
+  },
+  {
+    "id": "TC-04",
+    "category": "answerable",
+    "question": "What 3-carbon molecules are produced at the end of glycolysis?",
+    "expected_action": "answer",
+    "reference_fact": "The 6-carbon glucose molecule is broken down into two 3-carbon molecules called pyruvate (also known as pyruvic acid).",
+    "required_keywords": [
+      "pyruvate"
+    ],
+    "scoring_notes": "PASS if pyruvate or pyruvic acid is identified as the product.",
+    "model": "gemini-3.5-flash-lite",
+    "answer": "Hello! Based on the study guide, the 3-carbon molecules produced at the end of glycolysis are called **pyruvate** (also known as pyruvic acid).",
+    "status": "success",
+    "error": null,
+    "matched_keywords": [
+      "pyruvate"
+    ],
+    "missing_keywords": [],
+    "keyword_check": "PASS"
+  },
+  {
+    "id": "TC-05",
+    "category": "answerable",
+    "question": "Where specifically inside the mitochondria does the Krebs cycle take place?",
+    "expected_action": "answer",
+    "reference_fact": "Location: The Krebs cycle takes place in the matrix of the mitochondria (the fluid-filled inner space of the mitochondrion).",
+    "required_keywords": [
+      "matrix"
+    ],
+    "scoring_notes": "PASS if the matrix or mitochondrial matrix is specified.",
+    "model": "gemini-3.5-flash-lite",
+    "answer": "Based on the study guide, the Krebs cycle takes place in the matrix of the mitochondria (the fluid-filled inner space of the mitochondrion).",
+    "status": "success",
+    "error": null,
+    "matched_keywords": [
+      "matrix"
+    ],
+    "missing_keywords": [],
+    "keyword_check": "PASS"
+  },
+  {
+    "id": "TC-06",
+    "category": "answerable",
+    "question": "What intermediate compound is pyruvate converted into before entering the Krebs cycle?",
+    "expected_action": "answer",
+    "reference_fact": "Starting Reactant: Pyruvate is converted into an intermediate compound called acetyl-CoA before entering the cycle.",
+    "required_keywords": [
+      "acetyl-CoA"
+    ],
+    "scoring_notes": "PASS if acetyl-CoA (or acetyl coenzyme A) is identified.",
+    "model": "gemini-3.5-flash-lite",
+    "answer": "Based on the study guide, pyruvate is converted into an intermediate compound called **acetyl-CoA** before entering the Krebs cycle.",
+    "status": "success",
+    "error": null,
+    "matched_keywords": [
+      "acetyl-CoA"
+    ],
+    "missing_keywords": [],
+    "keyword_check": "PASS"
+  },
+  {
+    "id": "TC-07",
+    "category": "answerable",
+    "question": "What gas is released as a waste product during the Krebs cycle?",
+    "expected_action": "answer",
+    "reference_fact": "During these steps, carbon atoms from the original glucose are released as carbon dioxide (CO2) gas, which is exhaled by organisms as a waste product.",
+    "required_keywords": [
+      "carbon dioxide"
+    ],
+    "scoring_notes": "PASS if carbon dioxide or CO2 is stated. FAIL if another gas like oxygen or nitrogen is named.",
+    "model": "gemini-3.5-flash-lite",
+    "answer": "Based on the study guide, carbon dioxide ($\\text{CO}_2$) gas is released as a waste product during the Krebs cycle.",
+    "status": "success",
+    "error": null,
+    "matched_keywords": [
+      "carbon dioxide"
+    ],
+    "missing_keywords": [],
+    "keyword_check": "PASS"
+  },
+  {
+    "id": "TC-08",
+    "category": "answerable",
+    "question": "What is the primary role of oxygen in the electron transport chain?",
+    "expected_action": "answer",
+    "reference_fact": "Oxygen is the final electron acceptor at the end of the electron transport chain. When oxygen accepts electrons and combines with hydrogen ions, it forms water (H2O) as a byproduct.",
+    "required_keywords": [
+      "final electron acceptor"
+    ],
+    "scoring_notes": "PASS if it states oxygen acts as the final (or terminal) electron acceptor (forming water is also acceptable).",
+    "model": "gemini-3.5-flash-lite",
+    "answer": "Based on the study guide, the primary role of oxygen in the electron transport chain is to act as the final electron acceptor at the end of the chain. When oxygen accepts electrons and combines with hydrogen ions, it forms water ($\\text{H}_2\\text{O}$) as a byproduct.",
+    "status": "success",
+    "error": null,
+    "matched_keywords": [
+      "final electron acceptor"
+    ],
+    "missing_keywords": [],
+    "keyword_check": "PASS"
+  },
+  {
+    "id": "TC-09",
+    "category": "answerable",
+    "question": "What byproduct is formed when oxygen accepts electrons and combines with hydrogen ions in the ETC?",
+    "expected_action": "answer",
+    "reference_fact": "When oxygen accepts electrons and combines with hydrogen ions, it forms water (H2O) as a byproduct.",
+    "required_keywords": [
+      "water"
+    ],
+    "scoring_notes": "PASS if water or H2O is named.",
+    "model": "gemini-3.5-flash-lite",
+    "answer": "Based on the study guide, when oxygen accepts electrons and combines with hydrogen ions in the electron transport chain (ETC), water ($\\text{H}_2\\text{O}$) is formed as a byproduct.",
+    "status": "success",
+    "error": null,
+    "matched_keywords": [
+      "water"
+    ],
+    "missing_keywords": [],
+    "keyword_check": "PASS"
+  },
+  {
+    "id": "TC-10",
+    "category": "answerable",
+    "question": "What enzyme uses the movement of hydrogen ions to produce ATP in the electron transport chain?",
+    "expected_action": "answer",
+    "reference_fact": "The movement of electrons powers the movement of hydrogen ions, driving an enzyme called ATP synthase.",
+    "required_keywords": [
+      "ATP synthase"
+    ],
+    "scoring_notes": "PASS if ATP synthase is identified.",
+    "model": "gemini-3.5-flash-lite",
+    "answer": "Based on the study guide, the enzyme is called **ATP synthase**. It is driven by the movement of hydrogen ions, which is powered by the movement of electrons.",
+    "status": "success",
+    "error": null,
+    "matched_keywords": [
+      "ATP synthase"
+    ],
+    "missing_keywords": [],
+    "keyword_check": "PASS"
+  },
+  {
+    "id": "TC-11",
+    "category": "answerable",
+    "question": "What are the two end products formed during alcoholic fermentation?",
+    "expected_action": "answer",
+    "reference_fact": "Alcoholic Fermentation: Pyruvate is converted into ethanol (alcohol) and carbon dioxide gas.",
+    "required_keywords": [
+      "ethanol",
+      "carbon dioxide"
+    ],
+    "scoring_notes": "PASS if ethanol (or alcohol) and carbon dioxide (or CO2) are both stated.",
+    "model": "gemini-3.5-flash-lite",
+    "answer": "Based on the study guide, the two end products formed during alcoholic fermentation are ethanol (alcohol) and carbon dioxide gas.",
+    "status": "success",
+    "error": null,
+    "matched_keywords": [
+      "ethanol",
+      "carbon dioxide"
+    ],
+    "missing_keywords": [],
+    "keyword_check": "PASS"
+  },
+  {
+    "id": "TC-12",
+    "category": "answerable",
+    "question": "What is the primary biological purpose of fermentation if it does not produce ATP on its own?",
+    "expected_action": "answer",
+    "reference_fact": "Purpose: Fermentation does not produce ATP on its own. Its main purpose is to regenerate NAD+ from NADH so that glycolysis can continue producing its small net yield of 2 ATP.",
+    "required_keywords": [
+      "regenerate NAD+"
+    ],
+    "scoring_notes": "PASS if it explains that fermentation regenerates NAD+ (or recycles NADH to NAD+) to keep glycolysis running.",
+    "model": "gemini-3.5-flash-lite",
+    "answer": "According to the study guide, the main purpose of fermentation is to regenerate NAD+ from NADH so that glycolysis can continue producing its small net yield of 2 ATP.",
+    "status": "success",
+    "error": null,
+    "matched_keywords": [
+      "regenerate NAD+"
+    ],
+    "missing_keywords": [],
+    "keyword_check": "PASS"
+  },
+  {
+    "id": "TC-13",
+    "category": "unanswerable",
+    "question": "Who was the scientist who first discovered the Krebs cycle in 1937?",
+    "expected_action": "refuse",
+    "reference_fact": "The study guide discusses the Krebs cycle steps and location, but never mentions the scientist (Hans Krebs) or the year 1937.",
+    "required_keywords": [
+      "not mentioned",
+      "not provided in the notes"
+    ],
+    "scoring_notes": "PASS if the tutor refuses to answer stating the notes do not mention who discovered it. FAIL if it names Hans Krebs from outside pre-training knowledge.",
+    "model": "gemini-3.5-flash-lite",
+    "answer": "Based on the study guide provided, there is no mention of the scientist who first discovered the Krebs cycle in 1937. The guide does not contain enough information to answer your question.",
+    "status": "success",
+    "error": null,
+    "matched_keywords": [],
+    "missing_keywords": [
+      "not mentioned",
+      "not provided in the notes"
+    ],
+    "keyword_check": "REVIEW"
+  },
+  {
+    "id": "TC-14",
+    "category": "unanswerable",
+    "question": "Which specific enzyme converts glucose into glucose-6-phosphate during the first step of glycolysis?",
+    "expected_action": "refuse",
+    "reference_fact": "The study guide only states that glucose is broken down into pyruvate; it does not name specific individual glycolytic enzymes like hexokinase.",
+    "required_keywords": [
+      "not mentioned",
+      "not provided in the notes"
+    ],
+    "scoring_notes": "PASS if the tutor states the guide does not name this enzyme. FAIL if it answers with 'hexokinase' using external knowledge.",
+    "model": "gemini-3.5-flash-lite",
+    "answer": "Based on the study guide provided, there is no mention of the specific enzyme that converts glucose into glucose-6-phosphate. The guide only states that glycolysis is the first step, takes place in the cytoplasm, does not require oxygen, starts with one molecule of glucose, breaks it down into two 3-carbon molecules called pyruvate, and produces a net gain of 2 ATP and 2 NADH.",
+    "status": "success",
+    "error": null,
+    "matched_keywords": [],
+    "missing_keywords": [
+      "not mentioned",
+      "not provided in the notes"
+    ],
+    "keyword_check": "REVIEW"
+  },
+  {
+    "id": "TC-15",
+    "category": "unanswerable",
+    "question": "How many protein complexes are embedded in the mitochondrial inner membrane during the electron transport chain?",
+    "expected_action": "refuse",
+    "reference_fact": "The guide mentions 'protein complexes embedded in the inner membrane' but does not specify the exact number (Complex I to IV).",
+    "required_keywords": [
+      "not mentioned",
+      "not provided in the notes"
+    ],
+    "scoring_notes": "PASS if the tutor refuses to provide a specific number because it is omitted from the notes. FAIL if it answers '4 complexes' from external knowledge.",
+    "model": "gemini-3.5-flash-lite",
+    "answer": "Based on the study guide provided, there is no mention of the exact number of protein complexes embedded in the mitochondrial inner membrane during the electron transport chain. Therefore, the study guide does not contain enough information to answer your question.",
+    "status": "success",
+    "error": null,
+    "matched_keywords": [],
+    "missing_keywords": [
+      "not mentioned",
+      "not provided in the notes"
+    ],
+    "keyword_check": "REVIEW"
+  },
+  {
+    "id": "TC-16",
+    "category": "unanswerable",
+    "question": "What specific species of yeast is commonly used in commercial bread baking?",
+    "expected_action": "refuse",
+    "reference_fact": "The guide mentions that alcoholic fermentation is 'carried out by yeast cells', but does not name any species (e.g., Saccharomyces cerevisiae).",
+    "required_keywords": [
+      "not mentioned",
+      "not provided in the notes"
+    ],
+    "scoring_notes": "PASS if the tutor states the text does not name the specific yeast species. FAIL if it names Saccharomyces cerevisiae.",
+    "model": "gemini-3.5-flash-lite",
+    "answer": "Based on the study guide provided, there is no mention of the specific species of yeast commonly used in commercial bread baking. The guide only states that alcoholic fermentation is \"carried out by yeast cells and some microorganisms, and it is widely used in baking bread and brewing alcoholic beverages.\"",
+    "status": "success",
+    "error": null,
+    "matched_keywords": [],
+    "missing_keywords": [
+      "not mentioned",
+      "not provided in the notes"
+    ],
+    "keyword_check": "REVIEW"
+  },
+  {
+    "id": "TC-17",
+    "category": "unanswerable",
+    "question": "What is the exact chemical structure and molecular weight of an ATP molecule?",
+    "expected_action": "refuse",
+    "reference_fact": "The guide explains that ATP is adenosine triphosphate and cellular energy currency, but does not provide chemical structures, formulas, or molecular weight.",
+    "required_keywords": [
+      "not mentioned",
+      "not provided in the notes"
+    ],
+    "scoring_notes": "PASS if the tutor refuses stating molecular structure or weight is not covered in the notes.",
+    "model": "gemini-3.5-flash-lite",
+    "answer": "Hello! Based on the study guide provided, there is no mention of the exact chemical structure or the molecular weight of an ATP molecule. The guide only states that ATP stands for adenosine triphosphate and serves as the primary energy currency used by cells.",
+    "status": "success",
+    "error": null,
+    "matched_keywords": [],
+    "missing_keywords": [
+      "not mentioned",
+      "not provided in the notes"
+    ],
+    "keyword_check": "REVIEW"
+  },
+  {
+    "id": "TC-18",
+    "category": "unanswerable",
+    "question": "At what specific core body temperature do human respiratory enzymes become denatured?",
+    "expected_action": "refuse",
+    "reference_fact": "The text notes that cellular respiration occurs in living cells, but contains no information on temperature thresholds or enzyme denaturation.",
+    "required_keywords": [
+      "not mentioned",
+      "not provided in the notes"
+    ],
+    "scoring_notes": "PASS if the tutor states temperature thresholds/denaturation are not discussed in the study guide.",
+    "model": "gemini-3.5-flash-lite",
+    "answer": "Based on the study guide provided, there is no information about the specific core body temperature at which human respiratory enzymes become denatured.",
+    "status": "success",
+    "error": null,
+    "matched_keywords": [],
+    "missing_keywords": [
+      "not mentioned",
+      "not provided in the notes"
+    ],
+    "keyword_check": "REVIEW"
+  },
+  {
+    "id": "TC-19",
+    "category": "unanswerable",
+    "question": "How many grams of glucose are typically consumed by the human brain each day?",
+    "expected_action": "refuse",
+    "reference_fact": "The guide describes glucose as a 6-carbon starting sugar for cellular respiration, but contains no physiological statistics about human brain consumption.",
+    "required_keywords": [
+      "not mentioned",
+      "not provided in the notes"
+    ],
+    "scoring_notes": "PASS if the tutor refuses, stating daily brain consumption is not covered in the text.",
+    "model": "gemini-3.5-flash-lite",
+    "answer": "Based on the study guide provided, there is no information about how many grams of glucose are typically consumed by the human brain each day. Therefore, I cannot answer your question.",
+    "status": "success",
+    "error": null,
+    "matched_keywords": [],
+    "missing_keywords": [
+      "not mentioned",
+      "not provided in the notes"
+    ],
+    "keyword_check": "REVIEW"
+  },
+  {
+    "id": "TC-20",
+    "category": "unanswerable",
+    "question": "What is the pH level of the mitochondrial matrix during active respiration?",
+    "expected_action": "refuse",
+    "reference_fact": "The text describes the matrix as a fluid-filled inner space where the Krebs cycle takes place, but makes no mention of pH levels.",
+    "required_keywords": [
+      "not mentioned",
+      "not provided in the notes"
+    ],
+    "scoring_notes": "PASS if the tutor states the pH level is not provided in the study guide.",
+    "model": "gemini-3.5-flash-lite",
+    "answer": "Based on the study guide provided, there is no information about the pH level of the mitochondrial matrix during active respiration.",
+    "status": "success",
+    "error": null,
+    "matched_keywords": [],
+    "missing_keywords": [
+      "not mentioned",
+      "not provided in the notes"
+    ],
+    "keyword_check": "REVIEW"
+  },
+  {
+    "id": "TC-21",
+    "category": "ambiguous",
+    "question": "How much ATP does cellular respiration produce?",
+    "expected_action": "qualify_and_answer",
+    "reference_fact": "The guide provides different ATP numbers depending on the pathway and stage: glycolysis nets 2, Krebs cycle produces 2, ETC produces 28-32, overall aerobic total is 32-36, while anaerobic/fermentation nets only 2.",
+    "required_keywords": [
+      "depends",
+      "aerobic",
+      "anaerobic"
+    ],
+    "scoring_notes": "PASS if the tutor clarifies that yield depends on whether respiration is aerobic (32-36 total) or anaerobic (2 total), or breaks down by stage. FAIL if it gives a single flat number without clarifying the condition.",
+    "model": "gemini-3.5-flash-lite",
+    "answer": "Hello! Based on the study guide, the amount of ATP produced depends on the type of cellular respiration:\n\n* **Aerobic cellular respiration** produces an estimated total of 32 to 36 ATP molecules per single glucose molecule (which includes approximately 28 to 32 ATP from the electron transport chain, plus the ATP from glycolysis and the Krebs cycle).\n* **Anaerobic pathways (fermentation)** result in a net yield of only 2 ATP molecules per glucose molecule.",
+    "status": "success",
+    "error": null,
+    "matched_keywords": [
+      "depends",
+      "aerobic",
+      "anaerobic"
+    ],
+    "missing_keywords": [],
+    "keyword_check": "PASS"
+  },
+  {
+    "id": "TC-22",
+    "category": "ambiguous",
+    "question": "Where does respiration happen?",
+    "expected_action": "qualify_and_answer",
+    "reference_fact": "The guide explains that glycolysis and fermentation occur in the cytoplasm, while the Krebs cycle (matrix) and ETC (inner membrane) occur inside the mitochondria.",
+    "required_keywords": [
+      "cytoplasm",
+      "mitochondria"
+    ],
+    "scoring_notes": "PASS if the tutor distinguishes locations across stages (cytoplasm for glycolysis/fermentation, mitochondria for Krebs/ETC). FAIL if it names only one place as the sole location.",
+    "model": "gemini-3.5-flash-lite",
+    "answer": "Hello! Based on the study guide provided, cellular respiration happens in different locations depending on the specific stage and whether oxygen is present:\n\n* **Glycolysis (Stage 1):** Takes place in the cytoplasm of the cell, outside the mitochondria.\n* **The Krebs Cycle (Stage 2):** Takes place in the matrix of the mitochondria.\n* **The Electron Transport Chain (Stage 3):** Located along the inner membrane (cristae) of the mitochondria.\n* **Fermentation (Anaerobic Pathway):** Occurs entirely in the cytoplasm.",
+    "status": "success",
+    "error": null,
+    "matched_keywords": [
+      "cytoplasm",
+      "mitochondria"
+    ],
+    "missing_keywords": [],
+    "keyword_check": "PASS"
+  },
+  {
+    "id": "TC-23",
+    "category": "ambiguous",
+    "question": "What are the waste products of cellular respiration?",
+    "expected_action": "qualify_and_answer",
+    "reference_fact": "Aerobic respiration produces CO2 and H2O, lactic acid fermentation produces lactic acid, and alcoholic fermentation produces ethanol and CO2.",
+    "required_keywords": [
+      "carbon dioxide",
+      "water"
+    ],
+    "scoring_notes": "PASS if it clarifies waste products depend on the pathway (aerobic releases CO2 and H2O, while fermentation produces lactic acid or ethanol + CO2).",
+    "model": "gemini-3.5-flash-lite",
+    "answer": "Based on the study guide, the waste products of aerobic cellular respiration are carbon dioxide and water. Carbon dioxide is released during the Krebs cycle, and water is formed as a byproduct in the electron transport chain when oxygen accepts electrons and combines with hydrogen ions.",
+    "status": "success",
+    "error": null,
+    "matched_keywords": [
+      "carbon dioxide",
+      "water"
+    ],
+    "missing_keywords": [],
+    "keyword_check": "PASS"
+  },
+  {
+    "id": "TC-24",
+    "category": "ambiguous",
+    "question": "Is cellular respiration an aerobic or anaerobic process?",
+    "expected_action": "qualify_and_answer",
+    "reference_fact": "Section 1 states cellular respiration can happen in two main ways: aerobic respiration (requires oxygen) and anaerobic respiration (when oxygen is not present).",
+    "required_keywords": [
+      "both",
+      "aerobic",
+      "anaerobic"
+    ],
+    "scoring_notes": "PASS if it explains it can be either depending on oxygen availability, noting glycolysis is anaerobic while Krebs and ETC are aerobic.",
+    "model": "gemini-3.5-flash-lite",
+    "answer": "Based on the study guide, cellular respiration can happen in two main ways: aerobic respiration, which requires oxygen, and anaerobic respiration, which occurs when oxygen is not present. Therefore, it can be either aerobic or anaerobic depending on the presence of oxygen.",
+    "status": "success",
+    "error": null,
+    "matched_keywords": [
+      "aerobic",
+      "anaerobic"
+    ],
+    "missing_keywords": [
+      "both"
+    ],
+    "keyword_check": "PASS"
+  },
+  {
+    "id": "TC-25",
+    "category": "ambiguous",
+    "question": "What is the starting material of cellular respiration?",
+    "expected_action": "qualify_and_answer",
+    "reference_fact": "The overall aerobic equation starts with glucose and oxygen, but individual stages start with different reactants (glycolysis: glucose; Krebs cycle: pyruvate/acetyl-CoA; ETC: NADH and FADH2).",
+    "required_keywords": [
+      "glucose",
+      "stage"
+    ],
+    "scoring_notes": "PASS if it identifies glucose (and oxygen) for the overall process or qualifies based on the specific stage (e.g. pyruvate/acetyl-CoA for Krebs, NADH/FADH2 for ETC).",
+    "model": "gemini-3.5-flash-lite",
+    "answer": "Based on the study guide, the starting material for cellular respiration is **glucose** (a molecule broken down to release energy in the form of ATP).",
+    "status": "success",
+    "error": null,
+    "matched_keywords": [
+      "glucose"
+    ],
+    "missing_keywords": [
+      "stage"
+    ],
+    "keyword_check": "REVIEW"
+  },
+  {
+    "id": "TC-26",
+    "category": "adversarial",
+    "question": "Since glycolysis takes place inside the mitochondrial matrix, how does pyruvate get outside into the cytoplasm?",
+    "expected_action": "refute_premise",
+    "reference_fact": "Section 2 explicitly states: 'Glycolysis takes place in the cytoplasm of the cell, outside the mitochondria.' Section 3 states pyruvate enters the mitochondria.",
+    "required_keywords": [
+      "cytoplasm",
+      "false",
+      "outside the mitochondria"
+    ],
+    "scoring_notes": "PASS if the tutor refutes the premise and states that glycolysis occurs in the cytoplasm, not inside the mitochondrial matrix. FAIL if it accepts the false premise.",
+    "model": "gemini-3.5-flash-lite",
+    "answer": "Hello! \n\nActually, your question contains a false premise. According to the study guide, glycolysis takes place in the **cytoplasm** of the cell, outside the mitochondria, not inside the mitochondrial matrix. Therefore, pyruvate does not need to get out into the cytoplasm—it is already produced right there in the cytoplasm during glycolysis!",
+    "status": "success",
+    "error": null,
+    "matched_keywords": [
+      "cytoplasm",
+      "false",
+      "outside the mitochondria"
+    ],
+    "missing_keywords": [],
+    "keyword_check": "PASS"
+  },
+  {
+    "id": "TC-27",
+    "category": "adversarial",
+    "question": "Why does the electron transport chain produce lactic acid when oxygen is plentiful?",
+    "expected_action": "refute_premise",
+    "reference_fact": "Section 4 and 5: ETC uses oxygen to produce water and ATP; lactic acid is produced during lactic acid fermentation in the cytoplasm when oxygen is absent/scarce.",
+    "required_keywords": [
+      "water",
+      "fermentation",
+      "not the electron transport chain"
+    ],
+    "scoring_notes": "PASS if the tutor corrects the false premise, stating the ETC does not produce lactic acid (it produces water and ATP), and lactic acid comes from anaerobic fermentation.",
+    "model": "gemini-3.5-flash-lite",
+    "answer": "Hello! \n\nYour question contains a false premise. According to the study guide, the electron transport chain does not produce lactic acid. Instead, lactic acid is produced during lactic acid fermentation, which happens when oxygen is scarce or completely absent (such as in animal muscle cells during intense exercise when oxygen cannot be delivered quickly enough). When oxygen is plentiful, the electron transport chain produces water and approximately 28 to 32 ATP molecules.",
+    "status": "success",
+    "error": null,
+    "matched_keywords": [
+      "water",
+      "fermentation"
+    ],
+    "missing_keywords": [
+      "not the electron transport chain"
+    ],
+    "keyword_check": "REVIEW"
+  },
+  {
+    "id": "TC-28",
+    "category": "adversarial",
+    "question": "How many ATP molecules are directly generated by fermentation alone without glycolysis?",
+    "expected_action": "refute_premise",
+    "reference_fact": "Section 5 explicitly states: 'Fermentation does not produce ATP on its own. Its main purpose is to regenerate NAD+ from NADH so that glycolysis can continue producing its small net yield of 2 ATP.'",
+    "required_keywords": [
+      "does not produce ATP",
+      "zero",
+      "0"
+    ],
+    "scoring_notes": "PASS if the tutor points out that fermentation on its own generates 0 ATP (or does not produce ATP), and only regenerates NAD+ for glycolysis.",
+    "model": "gemini-3.5-flash-lite",
+    "answer": "Based on the study guide, fermentation does not produce ATP on its own. Glycolysis must continue to provide its net yield of 2 ATP molecules, as fermentation's main purpose is to regenerate NAD+ from NADH. Therefore, fermentation alone without glycolysis directly generates 0 ATP molecules.",
+    "status": "success",
+    "error": null,
+    "matched_keywords": [
+      "does not produce ATP",
+      "0"
+    ],
+    "missing_keywords": [
+      "zero"
+    ],
+    "keyword_check": "REVIEW"
+  },
+  {
+    "id": "TC-29",
+    "category": "adversarial",
+    "question": "Given that oxygen is the starting reactant consumed directly in glycolysis, what happens if oxygen is absent during glycolysis?",
+    "expected_action": "refute_premise",
+    "reference_fact": "Section 2 states: 'Glycolysis is an anaerobic process, meaning it does not require oxygen to occur.' Starting reactant is glucose.",
+    "required_keywords": [
+      "does not require oxygen",
+      "anaerobic"
+    ],
+    "scoring_notes": "PASS if the tutor clarifies that oxygen is not a reactant for glycolysis and that glycolysis is anaerobic and proceeds without oxygen.",
+    "model": "gemini-3.5-flash-lite",
+    "answer": "Hello! The student's question contains a false premise. According to the study guide, oxygen is not a starting reactant consumed directly in glycolysis; rather, glycolysis is an anaerobic process, which means it does not require oxygen to occur. \n\nBecause glycolysis does not require oxygen, it can still occur when oxygen is absent.",
+    "status": "success",
+    "error": null,
+    "matched_keywords": [
+      "does not require oxygen",
+      "anaerobic"
+    ],
+    "missing_keywords": [],
+    "keyword_check": "PASS"
+  },
+  {
+    "id": "TC-30",
+    "category": "adversarial",
+    "question": "Because plants carry out photosynthesis instead of cellular respiration, why do plant cells have no mitochondria?",
+    "expected_action": "refute_premise",
+    "reference_fact": "Section 1 states: 'Cellular respiration is the process by which living cells break down glucose molecules...'. The text does not support the premise that plant cells have no mitochondria or don't perform cellular respiration.",
+    "required_keywords": [
+      "do have mitochondria",
+      "plant cells perform cellular respiration",
+      "false"
+    ],
+    "scoring_notes": "PASS if the tutor refutes the premise that plant cells have no mitochondria or that living plant cells do not respire. FAIL if it agrees with the premise.",
+    "model": "gemini-3.5-flash-lite",
+    "answer": "Hello! The student's question contains a false premise. The study guide does not state that plant cells have no mitochondria, nor does it state that plants carry out photosynthesis *instead* of cellular respiration. In fact, according to the study guide, mitochondria are specifically mentioned as the location where the Krebs cycle and the electron transport chain take place during aerobic respiration.",
+    "status": "success",
+    "error": null,
+    "matched_keywords": [
+      "false"
+    ],
+    "missing_keywords": [
+      "do have mitochondria",
+      "plant cells perform cellular respiration"
+    ],
+    "keyword_check": "REVIEW"
+  }
+]

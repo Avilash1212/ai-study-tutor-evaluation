@@ -1,0 +1,9 @@
+PROMPT V1 vs V2 — AUTOMATED COMPARISON
+Cases compared: 30
+V1 keyword checks passed: 18/30 (60.0%)
+V2 keyword checks passed: 18/30 (60.0%)
+Change: +0 cases
+Review → PASS: 1 — TC-25
+PASS → Review: 1 — TC-21
+
+Important: keyword checks are a rough screening metric, not true factual accuracy.
